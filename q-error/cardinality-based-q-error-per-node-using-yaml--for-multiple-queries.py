@@ -8,7 +8,7 @@ conn_params = {
     'user': 'postgres',
     'password': '5trathm0re',
     'host': 'localhost',
-    'port': '5432'
+    'port': '5433'
 }
 
 # Connect to the PostgreSQL database
@@ -122,5 +122,5 @@ def main():
     # Enable query optimizer options (if necessary)
     # cur.execute("SET enable_hashjoin = ON;")
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
